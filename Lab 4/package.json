@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "My Lab 4 Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Vatsal Shah 10474245",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "mongodb": "^4.1.3"
+  }
+}
