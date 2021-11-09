@@ -1,0 +1,15 @@
+<main>
+    <div>
+        {{#each searchResult}}
+            <h1>{{name}}</h1>
+            <img src="{{thumbnail.path}}.{{thumbnail.extension}}" alt="{{name}}">
+            <p class="description">{{description}}</p>
+            <h2>Comics</h2>
+            <ul>
+                {{#each comics.items}}
+                    <li class="comicName">{{name}}</li>
+                {{/each}}
+            </ul>
+        {{/each}}
+    </div>
+</main>

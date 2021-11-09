@@ -1,0 +1,16 @@
+<main>
+    <h1>Characters Found</h1>
+    {{#if noResult}}
+        <p class="not-found">We're sorry, but no results were found for {{searchTerm}}.</p>
+    {{else}}
+    <h2>{{searchTerm}}</h2>
+    <ul>
+        {{#each searchResult}}
+            <li>
+                <a href="/characters/{{id}}">{{name}}</a>
+            </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+    <a class="anotherSearch" href="/">Make another search</a>
+</main>
