@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-9",
+  "version": "1.0.0",
+  "description": "My Lab 9 Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Vatsal Shah 10474245",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
+  }
+}
