@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Maze</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+<body>
+    <div class="wrapper" id="page">
+
+        <header>
+            <h1>TV Maze</h1>
+        </header>
+        
+        <form method="post" id="searchForm">
+            <div class="formDiv">
+                <label for="search_term"></label>
+                <input type="search" name="searchInput" id="search_term" placeholder="Start typing">
+                <button type="submit" id="submitBtn" class="submitBtn">Search</button>    
+            </div>
+            <div id="myErrors" hidden></div>
+        </form>
+        <div id="results" hidden>
+            <ul id="showList" hidden></ul>
+            <div id="show" hidden></div>        
+        </div>
+        <a href="/" id="homeLink" hidden>Show List</a>
+    </div>
+    <footer>Vatsal Shah 10474245</footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <script src="/public/js/scipt.js"></script>
+</body>
+</html>
