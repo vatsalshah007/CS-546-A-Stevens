@@ -1,8 +1,8 @@
 const md5 = require('md5');
 const { default: axios } = require("axios");
 const { marvel } = require('.');
-const publickey = 'f1dacbc2170b534c292d600eba6d24ef';
-const privatekey = '71c5e8b014df2a10d45231233e8d379618a42dc7';
+const publickey = 'Your Public Key From Marvel Developer Portal';
+const privatekey = 'Your Private Key From Marvel Developer Portal';
 const ts = new Date().getTime();
 const stringToHash = ts + privatekey + publickey;
 const hash = md5(stringToHash);
